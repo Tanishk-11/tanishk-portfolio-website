@@ -19,7 +19,7 @@ const Hero = () => {
               <span className="text-foreground">Thakur</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              AI/ML Engineer & Full Stack Developer
+              AI/ML Engineer
               <br />
               <span className="text-neon-blue font-semibold">CGPA 9.39</span> at Birla Institute of Technology, Mesra
             </p>

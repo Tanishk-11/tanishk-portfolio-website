@@ -19,7 +19,7 @@ const Hero = () => {
               <span className="text-foreground">Thakur</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              AI/ML Engineer
+              AI/ML Enthusiast
               <br />
               <span className="text-neon-blue font-semibold">CGPA 9.39</span> at Birla Institute of Technology, Mesra
             </p>
@@ -30,7 +30,7 @@ const Hero = () => {
               <Mail className="w-5 h-5 mr-2" />
               Contact Me
             </Button>
-            <Button variant="outline" size="lg" className="border-border/50 hover:border-neon-blue/50 px-8 py-3">
+            <Button size="lg" className="bg-gradient-to-r from-neon-blue to-neon-purple hover:from-neon-purple hover:to-neon-pink text-white border-0 px-8 py-3">
               <Download className="w-5 h-5 mr-2" />
               Download Resume
             </Button>
@@ -57,8 +57,8 @@ const Hero = () => {
               <div className="text-muted-foreground">LeetCode Problems</div>
             </div>
             <div className="text-center space-y-2">
-              <div className="text-3xl font-bold gradient-text">3+</div>
-              <div className="text-muted-foreground">AI/ML Projects</div>
+              <div className="text-3xl font-bold gradient-text">9+</div>
+              <div className="text-muted-foreground">SGPA in every semester</div>
             </div>
           </div>
         </div>

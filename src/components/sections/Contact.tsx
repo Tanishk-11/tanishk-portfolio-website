@@ -59,25 +59,37 @@ const Contact = () => {
               
               <div className="text-center space-y-6">
                 <div className="flex justify-center gap-4">
-                  <Button className="bg-gradient-to-r from-neon-blue to-neon-purple hover:from-neon-purple hover:to-neon-pink text-white border-0 px-8">
+                  <Button 
+                    className="bg-gradient-to-r from-neon-blue to-neon-purple hover:from-neon-purple hover:to-neon-pink text-white border-0 px-8 transition-all duration-300"
+                    onClick={() => window.location.href = 'mailto:galaxytanishk01@gmail.com'}
+                  >
                     <Mail className="w-5 h-5 mr-2" />
                     Send Email
                   </Button>
-                  <Button variant="outline" className="border-border/50 hover:border-neon-blue/50 px-8">
+                  <Button 
+                    className="bg-gradient-to-r from-neon-blue to-neon-purple hover:from-neon-purple hover:to-neon-pink text-white border-0 px-8 transition-all duration-300"
+                    onClick={() => window.open('https://github.com/Tanishk-11', '_blank')}
+                  >
                     <Github className="w-5 h-5 mr-2" />
                     GitHub
                   </Button>
                 </div>
                 
                 <div className="flex justify-center gap-3">
-                  <Badge variant="secondary" className="bg-secondary/50 px-4 py-2 text-sm">
+                  <Button 
+                    className="bg-gradient-to-r from-neon-blue to-neon-purple hover:from-neon-purple hover:to-neon-pink text-white border-0 px-6 py-2 transition-all duration-300"
+                    onClick={() => window.open('https://www.linkedin.com/in/tanishk-thakur-5237a3288/', '_blank')}
+                  >
                     <Linkedin className="w-4 h-4 mr-2" />
                     Tanishk Singh Thakur
-                  </Badge>
-                  <Badge variant="secondary" className="bg-secondary/50 px-4 py-2 text-sm">
+                  </Button>
+                  <Button 
+                    className="bg-gradient-to-r from-neon-blue to-neon-purple hover:from-neon-purple hover:to-neon-pink text-white border-0 px-6 py-2 transition-all duration-300"
+                    onClick={() => window.open('https://github.com/Tanishk-11', '_blank')}
+                  >
                     <ExternalLink className="w-4 h-4 mr-2" />
                     Tanishk-11
-                  </Badge>
+                  </Button>
                 </div>
               </div>
             </CardContent>

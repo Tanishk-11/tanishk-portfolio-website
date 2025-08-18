@@ -6,22 +6,27 @@ const Skills = () => {
     {
       title: "Programming Languages",
       icon: <Code className="text-white" />,
-      skills: ["Python", "C++", "JavaScript (ES6)", "SQL", "R"]
+      skills: ["Python", "C++", "JavaScript (Basics)"]
     },
     {
-      title: "AI/ML & Data Science",
+      title: "Data Science & Artificial Intelligence",
       icon: <Cpu className="text-white" />,
-      skills: ["Machine Learning", "Deep Learning", "Computer Vision", "NLP", "TensorFlow", "Keras", "Pandas", "NumPy", "Scikit-learn", "Matplotlib"]
+      skills: ["Supervised Learning", "Unsupervised Learning", "NumPy", "Pandas", "Matplotlib", "Scikit-learn", "Exploratory Data Analysis (EDA)", "TensorFlow", "Computer Vision (OpenCV)", "Transfer Learning", "Power BI (Basics)"]
     },
     {
-      title: "Web Technologies",
+      title: "Web Technologies & Deployment",
       icon: <Globe className="text-white" />,
-      skills: ["FastAPI", "HTML", "CSS", "Bootstrap", "React", "Node.js", "Streamlit", "Docker", "Git"]
+      skills: ["FastAPI", "Pydantic", "HTML", "CSS", "Docker", "Containerization"]
     },
     {
-      title: "Tools & Platforms",
+      title: "Developer Tools",
       icon: <Database className="text-white" />,
-      skills: ["Jupyter Notebook", "Google Colab", "VS Code", "GitHub", "PostgreSQL", "MongoDB", "AWS", "Heroku"]
+      skills: ["Git", "GitHub", "Version Control", "Jupyter Notebooks"]
+    },
+    {
+      title: "Core Concepts",
+      icon: <Database className="text-white" />,
+      skills: ["Data Structures & Algorithms", "OOP", "PostgreSQL", "Statistics", "Probability", "Linear Algebra"]
     }
   ];
 
@@ -37,7 +42,7 @@ const Skills = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {skillCategories.map((category, index) => (
             <div key={index} className="animate-fade-in" style={{ animationDelay: `${index * 0.15}s` }}>
               <SkillCard {...category} />

@@ -36,13 +36,23 @@ const ProjectCard = ({ title, description, technologies, githubUrl, liveUrl, ico
         </div>
         <div className="flex gap-3 pt-2">
           {githubUrl && (
-            <Button variant="outline" size="sm" className="flex items-center gap-2 border-border/50 hover:border-neon-blue/50">
+            <Button 
+              variant="outline" 
+              size="sm" 
+              className="flex items-center gap-2 border-border/50 hover:border-neon-blue/50"
+              onClick={() => window.open(githubUrl, '_blank')}
+            >
               <Github className="w-4 h-4" />
               Code
             </Button>
           )}
           {liveUrl && (
-            <Button variant="outline" size="sm" className="flex items-center gap-2 border-border/50 hover:border-neon-purple/50">
+            <Button 
+              variant="outline" 
+              size="sm" 
+              className="flex items-center gap-2 border-border/50 hover:border-neon-purple/50"
+              onClick={() => window.open(liveUrl, '_blank')}
+            >
               <ExternalLink className="w-4 h-4" />
               Live Demo
             </Button>

@@ -57,7 +57,7 @@ const Contact = () => {
                 </div>
               </div>
               
-              <div className="text-center space-y-6">
+              <div className="text-center">
                 <div className="flex justify-center gap-4">
                   <Button 
                     className="bg-gradient-to-r from-neon-blue to-neon-purple hover:from-neon-purple hover:to-neon-pink text-white border-0 px-8 transition-all duration-300"
@@ -73,22 +73,12 @@ const Contact = () => {
                     <Github className="w-5 h-5 mr-2" />
                     GitHub
                   </Button>
-                </div>
-                
-                <div className="flex justify-center gap-3">
                   <Button 
-                    className="bg-gradient-to-r from-neon-blue to-neon-purple hover:from-neon-purple hover:to-neon-pink text-white border-0 px-6 py-2 transition-all duration-300"
+                    className="bg-gradient-to-r from-neon-blue to-neon-purple hover:from-neon-purple hover:to-neon-pink text-white border-0 px-8 transition-all duration-300"
                     onClick={() => window.open('https://www.linkedin.com/in/tanishk-thakur-5237a3288/', '_blank')}
                   >
-                    <Linkedin className="w-4 h-4 mr-2" />
-                    Tanishk Singh Thakur
-                  </Button>
-                  <Button 
-                    className="bg-gradient-to-r from-neon-blue to-neon-purple hover:from-neon-purple hover:to-neon-pink text-white border-0 px-6 py-2 transition-all duration-300"
-                    onClick={() => window.open('https://github.com/Tanishk-11', '_blank')}
-                  >
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    Tanishk-11
+                    <Linkedin className="w-5 h-5 mr-2" />
+                    LinkedIn
                   </Button>
                 </div>
               </div>

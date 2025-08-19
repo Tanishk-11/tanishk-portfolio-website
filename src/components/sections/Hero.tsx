@@ -16,7 +16,7 @@ const Hero = () => {
             <h1 className="text-5xl md:text-7xl font-bold">
               <span className="gradient-text">Tanishk Singh</span>
               <br />
-              <span className="text-foreground">Thakur</span>
+              <span className="gradient-text">Thakur</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               AI/ML Enthusiast
@@ -26,11 +26,19 @@ const Hero = () => {
           </div>
           
           <div className="flex flex-wrap justify-center gap-4">
-            <Button size="lg" className="bg-gradient-to-r from-neon-blue to-neon-purple hover:from-neon-purple hover:to-neon-pink text-white border-0 px-8 py-3">
+            <Button 
+              size="lg" 
+              className="bg-gradient-to-r from-neon-blue to-neon-purple hover:from-neon-purple hover:to-neon-pink text-white border-0 px-8 py-3"
+              onClick={() => window.location.href = 'mailto:galaxytanishk01@gmail.com'}
+            >
               <Mail className="w-5 h-5 mr-2" />
               Contact Me
             </Button>
-            <Button size="lg" className="bg-gradient-to-r from-neon-blue to-neon-purple hover:from-neon-purple hover:to-neon-pink text-white border-0 px-8 py-3">
+            <Button 
+              size="lg" 
+              className="bg-gradient-to-r from-neon-blue to-neon-purple hover:from-neon-purple hover:to-neon-pink text-white border-0 px-8 py-3"
+              onClick={() => window.open('https://drive.google.com/file/d/134dmPQwo2laZN5-2fEtpoR8k_QBrqFDC/view?usp=sharing', '_blank')}
+            >
               <Download className="w-5 h-5 mr-2" />
               Download Resume
             </Button>
